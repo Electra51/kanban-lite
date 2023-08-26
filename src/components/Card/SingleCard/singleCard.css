@@ -1,0 +1,16 @@
+.header {
+  background: green;
+
+}
+
+.scrollable-container {
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+}
+
+.scrollable-body {
+  background: blue;
+  padding: 10px;
+  overflow-y: auto;  
+}
