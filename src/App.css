@@ -39,3 +39,10 @@ body{
   background: #5897fd; 
 }
 
+
+.showOverlay{
+  opacity: 1;
+}
+.showLoginForm{
+  top: 50%;
+}
