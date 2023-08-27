@@ -19,7 +19,7 @@ const FileUpload = ({ files, setFiles,removeFile }) => {
             file,
             file.name
         )
-        axios.post('http://localhost:8080/upload', formData)
+        axios.post('https://kanban-lite-server.vercel.app/upload', formData)
             // eslint-disable-next-line no-unused-vars
             .then((res) => {
                 file.isUploading = false;

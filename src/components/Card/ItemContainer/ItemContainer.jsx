@@ -5,11 +5,7 @@ import {GrAttachment} from "react-icons/gr";
 import './itemContainer.css'
 import FileRoot from '../FileUpload/FileRoot';
 
-
-
 const ItemContainer = () => {
- 
-
     function toggleModal(modalID){
     document.getElementById(modalID).classList.toggle("hidden");
     document.getElementById(modalID + "-backdrop").classList.toggle("hidden");
@@ -18,12 +14,11 @@ const ItemContainer = () => {
   }
   return (
    <div className='bg-white rounded p-2 mt-3'>
-    
-      {/* client name */}
+   {/* client name */}
                         <div className='flex justify-between pb-1'>
                             <div className="flex items-center">
                                 <img className="w-6 h-6 rounded" src='https://i.ibb.co/n7GqgRy/profile.png' alt="Default avatar" /> 
-                                <p className='font-semibold text-[14px] ml-1'> Client Name</p>
+                                <p className='font-semibold text-[14px] ml-1'>Client Name</p>
                             </div>
                             <div className="flex items-center">
                                 <img className="w-6 h-6 rounded" src='https://i.ibb.co/n7GqgRy/profile.png' alt="Default avatar" /> 
@@ -54,7 +49,6 @@ const ItemContainer = () => {
                                 
                                <div className='flex items-center font-normal text-[13px]'><BiSolidCalendar/>13-12-2022</div> 
                             </div>
-
 
 {/* modal           */}
 <div className="hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="modal-id">
